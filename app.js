@@ -6,9 +6,9 @@ let superHeroContainer = document.getElementById('superhero-list');
 
 
 
-const targetUrl = 'http://gateway.marvel.com/v1/public/characters?ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
+const targetUrl = 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
 
-const searchUrl2 = 'http://gateway.marvel.com/v1/public/characters?name=&ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
+const searchUrl2 = 'https://gateway.marvel.com/v1/public/characters?name=&ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
 
 const searchURL = 'https://gateway.marvel.com/v1/public/characters?name=';
 
