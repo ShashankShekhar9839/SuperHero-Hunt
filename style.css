@@ -1,0 +1,246 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif
+}
+
+
+/* styling home page */
+body{
+
+background-size:cover;
+display: flex;
+flex-direction: column;
+background-image: url('./resources/images/mulyadi-MO7HNbW1Mew-unsplash.jpg');
+background-repeat: no-repeat;
+}
+
+/* styling header section */
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  color: white;
+background-color: black;
+}
+
+/* styling search bar */
+
+#search{
+  font-size: 20px;
+  border-radius: 12px;
+  width: 30vw;
+  text-align: center;
+  padding: 5px;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  border: 2px solid red;
+ 
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:groove;
+  background-color: rgb(17, 16, 16);
+ 
+  
+
+}
+
+::placeholder{
+  color: white;
+}
+
+/* styling anchor tag */
+
+a{
+  color: white;
+}
+
+a :hover{
+  color: red;
+}
+
+.superhero-fav i{
+  font-size: 2rem;
+  margin-left: 10px;
+  color: white;
+}
+
+
+.favorites-heading{
+  color: red;
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 1.5in;
+  margin: 10px;
+}
+
+
+.superhero-main, .superhero-favorites{
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* styling superhero cards */
+
+.superhero-character{
+  
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+/* image inside superhero card */
+.superhero-img{
+  width: 250px;
+  height: 40vh;
+  border: 3px solid red;
+ 
+  border-top-style:groove;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:hidden;
+}
+
+.superhero-content{
+  width: 250px;
+  height: 10vh;
+ color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  margin-top: -4px;
+  border: 3px solid red;
+ 
+  border-top-style:hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:groove;
+  background-color: rgba(215, 196, 207, 0.356)
+
+}
+
+.superhero-action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.superhero-name, .fa-heart{
+  color: white;
+  padding: 8px 8px;
+  font-size: 1.25rem;
+}
+
+.fa-heart{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/*************** Supehero Details Page Styles ********************/
+
+.superhero-details{
+  margin: 10px 3rem;
+  display: flex;
+
+  gap: 1rem;
+
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.superhero-details-img{
+  width: 250px;
+}
+
+.superhero-details-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.superhero-details-info-name{
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.superhero-details-info-para{
+  padding: 10px;
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+.superhero-more-info{
+  margin: 10px 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.more-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: var(--secondaryColor);
+  padding: 1rem;
+  color: wheat;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.more-info h2{
+  font-size: 1.25rem;
+  line-height: 25px;
+
+}
+
+.show-info{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background-color: rgba(111, 18, 224, 0.05);
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.show-info h2, i, h4, h4 a{
+  text-decoration: none;
+  color: wheat;
+}
+
+.show-info h2 {
+  
+  font-size: 1.5rem;
+}
+
+.show-info h4 {
+  padding: 0 20px;
+  font-size: 0.9rem;
+}
+
+/* .favorites-heading{
+  text-align: center;
+  color: wheat;
+  font-size: 3rem;
+  margin: 20px 0;
+} */
+
+

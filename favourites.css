@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+
+    background-position: 100%;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.nav-bar {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+    /* background-color: black; */
+    color: white;
+}
+
+
+a{ 
+    color: white;
+    
+    }
+    
+    a :hover{
+        color: red;
+    }
