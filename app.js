@@ -1,11 +1,11 @@
-let search = document.getElementById('search-bar');
-let form = document.getElementById('forms');
-
-let superHeroContainer = document.getElementById('superhero-list');
 
 
 
 
+
+
+// api's for fetching data
+// breaks in different variables so that we can use it later
 const targetUrl = 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
 
 const searchUrl2 = 'https://gateway.marvel.com/v1/public/characters?name=&ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
@@ -14,7 +14,7 @@ const searchURL = 'https://gateway.marvel.com/v1/public/characters?name=';
 
 const restURL = '&ts=1&apikey=cd08f87bb180856f35c66d2cded450e3&hash=5f42053fffec70fc39f484e2b7171642';
 
-
+let superHeroContainer = document.getElementById('superhero-list');
 
 
 
@@ -94,7 +94,7 @@ document.addEventListener('submit', (e) => {
   if (searchInput) {
 
     getCharacters(searchURL + searchInput + restURL);
-    setTimeout(listenForLikes, 1000);
+    setTimeout(listenForLikes, 3000);
 
   }
   e.preventDefault();
